@@ -1,0 +1,18 @@
+Goal: Build Github.io portfolio site
+
+Components:
+Main page: Your name, an intro, and links to your portfolio projects
+Portfolio Pages:
+1. Uber
+2. UFC
+3. Digit Recognition (come back to this after extracting from kaggle practice)
+4. ENRON model
+5. Tableau project
+6. Openstreetmaps page
+7. Iceberg
+8. Big Cities Health Data
+
+Todo:
+- Figure out how jekyl works for project pages. Where's the html?
+- Add digit recognition and big cities
+- Clean up / standardize images
