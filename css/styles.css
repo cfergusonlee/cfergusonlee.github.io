@@ -1,0 +1,123 @@
+body {
+  font-family: 'Arial', Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 80%;
+}
+
+/* TOP SECTION */
+
+.header-row {
+  width: 80%;
+  margin: 0 auto;
+}
+.pic {
+  margin-top: 10px;
+}
+.name {
+  font: 300 4em 'Lato', sans-serif;
+}
+.about {
+  font-family: 'Lato', sans-serif;
+  padding-top: 10px;
+}
+.presentation-text {
+  padding: 2% 0;
+  width: 75%;
+  font-size: 1.5em;
+}
+.presentation-box {
+  color: black;
+  background-color: #d0e0ec;
+  margin: 2% 0;
+  padding-bottom: 2%;
+}
+.menu a {
+  font-weight: 400;
+  width: 150px;
+}
+
+/* PROJECT SECTION */
+
+.featured-title {
+  color: #bcbbbb;
+  padding-bottom: 2%;
+}
+.project-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.project-pic {
+  box-shadow: 0 0 10px #575757;
+  transition: box-shadow 0.2s ease-out;
+}
+.project-pic, .project-box {
+  margin: 0 auto;
+}
+.project-pic:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px #575757;
+}
+.project-box h2 {
+  font-size: 2.2em;
+}
+.project-box {
+  margin-bottom: 2%;
+}
+
+/*CONTACT ICONS*/
+
+.social-icons-section {
+  background-color: #d5ecd0;
+  padding: 10px;
+}
+.social-icons-section li {
+  margin: 0 1%;
+}
+.social-icons-section a {
+  color: #337ab7;
+}
+.social-icons-section a:hover {
+  color: #286090;
+}
+
+/* MODALS */
+
+.project-description {
+  margin: 2% 5% 0;
+  font-size: 1.3em;
+}
+.modal-buttons {
+  margin-top: 2%;
+}
+
+.modal-anchors {
+  margin-top: 10px;
+}
+
+.modal-anchors a {
+  width: 120px;
+}
+.modal-pic {
+  border: 1px solid grey;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 770px) {
+  .pic {
+    margin: 0 auto;
+  }
+  .name-title {
+    text-align: center;
+  }
+  .presentation-text {
+    font-size: 1.2em;
+  }
+}
