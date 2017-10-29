@@ -15,4 +15,4 @@ Portfolio Pages:
 Todo:
 - Figure out how jekyl works for project pages. Where's the html?
 - Add digit recognition and big cities
-- Clean up / standardize images
+- Clean up / standardize images]
