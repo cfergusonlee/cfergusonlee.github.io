@@ -76,6 +76,10 @@ h1 {
 .caption {
   font-size: 10px;
 }
+.project-caption {
+  margin-top: 10px;
+  font-size: 16px;
+}
 .profile-pic {
   max-height: 200px;
 }
